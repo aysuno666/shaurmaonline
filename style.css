@@ -117,7 +117,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #product_1{
-    background-image: url('/img/6e80e2f3-b9f3-4958-a0eb-221a12f6a379.jpeg');
+    background-image: url('./img/6e80e2f3-b9f3-4958-a0eb-221a12f6a379.jpeg');
     background-size: 100% 100%;
 }
 #product_2{
@@ -126,27 +126,27 @@ h1,h2,h3,h4,h5,h6{
 }
 #product_3{
     background-size: 100% 100%;
-    background-image: url('/img/sad.jpeg');
+    background-image: url('./img/sad.jpeg');
 }
 #product_4{
     background-size: 100% 100%;
-    background-image: url('/img/very_sad.jpeg');
+    background-image: url('./img/very_sad.jpeg');
 }
 #product_5{
     background-size: 100% 100%;
-    background-image: url('/img/неуравновешенный.jpeg');
+    background-image: url('./img/неуравновешенный.jpeg');
 }
 #product_6{
     background-size: 100% 100%;
-    background-image: url('/img/4e.jpeg');
+    background-image: url('./img/4e.jpeg');
 }
 #product_7{
     background-size: 100% 100%;
-    background-image: url('/img/sleep.jpeg');
+    background-image: url('./img/sleep.jpeg');
 }
 #product_8{
     background-size: 100% 100%;
-    background-image: url('/img/litle_sad.jpeg');
+    background-image: url('./img/litle_sad.jpeg');
 }
 #product_9{
     background-size: 100% 100%;
