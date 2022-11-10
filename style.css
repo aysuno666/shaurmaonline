@@ -1,0 +1,158 @@
+:root{
+    --hd-wd: 85px;
+    --footer-wd: 80px;
+    --aside-wd: 35%;
+    --box-wd: calc( 100% / 4 + 20px);
+    --main-color: #212121;
+}
+
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    height: var(--hd-wd);
+    background-color: var(--main-color);
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - var(--footer-wd) - var(--hd-wd) );
+    background-color: #666666;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: var(--aside-wd);
+    height: 100%;
+}
+.aside img{
+    width: 50%;
+    height: 70%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(180, 159, 159);
+    font-size: 25px;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc( 100% - var(--aside-wd));
+    height: 100%;
+
+
+}
+.content_container{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    width: 90%;
+    height: 90%;
+}
+.box{
+    margin-left: 10px;
+    margin-right: 10px ;
+    width: var(--box-wd);
+    height: 150px;
+}
+.box_product{
+    width: 100%;
+    height: 100%;
+}
+.box_product_title{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.price{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(172, 172, 172, .7);
+}
+.price_title{
+    padding: 3px;
+    font-size: 22px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: var(--footer-wd);
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+#product_1{
+    background-image: url('/img/6e80e2f3-b9f3-4958-a0eb-221a12f6a379.jpeg');
+    background-size: 100% 100%;
+}
+#product_2{
+    background-image: url('https://funart.pro/uploads/posts/2022-06/1654717992_2-funart-pro-p-shaurma-s-kotyatami-zhivotnie-krasivo-foto-3.jpg') ;
+    background-size: 100% 100%;
+}
+#product_3{
+    background-size: 100% 100%;
+    background-image: url('/img/sad.jpeg');
+}
+#product_4{
+    background-size: 100% 100%;
+    background-image: url('/img/very_sad.jpeg');
+}
+#product_5{
+    background-size: 100% 100%;
+    background-image: url('/img/неуравновешенный.jpeg');
+}
+#product_6{
+    background-size: 100% 100%;
+    background-image: url('/img/4e.jpeg');
+}
+#product_7{
+    background-size: 100% 100%;
+    background-image: url('/img/sleep.jpeg');
+}
+#product_8{
+    background-size: 100% 100%;
+    background-image: url('/img/litle_sad.jpeg');
+}
+#product_9{
+    background-size: 100% 100%;
+    background-image: url('https://avatarko.ru/img/kartinka/19/kot_eda_18744.jpg');
+}
+
+@media(max-device-width: 500px){
+
+}
