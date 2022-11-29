@@ -1,57 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="stylesheet" href="productStyle.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="productStyle.css">
     <meta charset="UTF-8">
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Шаурмечная</title>
+    <title>VeloShop</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <a href="index.html">  <h1 align="center">Шаурмечная</h1></a>
-          
+            <div class="header_innear">
+                <div  class="dropbtn dropdown menu" >
+                    <div onclick="myFunction()" class="line dropbtn dropdown menu"></div>
+                    <div onclick="myFunction()" class="line dropbtn dropdown "></div>
+                    <div onclick="myFunction()" class="line dropbtn  dropdown"></div>
+                </div>
+               <nav class="navbar">
+                    <a class="navlink" href="">Горные велосипеды</a>
+                    <a class="navlink" href="">Шоссейные велосипеды</a>
+                    <a class="navlink" href="">Фэтбайк</a>
+               </nav>
+                <a href="index.html"><h1 align="center">VeloShop</h1></a>
+            </div>
+           
         </header>
-        <div class="container2">
-            <aside class="aside aside2">
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="">Шаурма</a></li>
-                        <li><a href="">Шаурма с котятами</a></li>
-                        <li><a href="">Мемы</a></li>
-                    </ul>
-                </nav>
-                    <img src="https://lafoy.ru/photo_s/shaurma-s-kuricey-v-domashnih-usloviyah-recepty-1075-42533.jpg" alt="">
+        <div class="container">
+            <div id="myDropdown" class="dropdown-content">
+                <a class="navlink" href="">Горные велосипеды</a>
+                <hr>
+                <a class="navlink" href="">Шоссейные велосипеды</a>
+                <hr>
+                <a class="navlink" href="">Фэтбайк</a>
+            </div>
+            <aside class="aside">
+                    <img src="https://abrakadabra.fun/uploads/posts/2021-12/1640723093_3-abrakadabra-fun-p-velosiped-krasivie-oboi-vertikalnie-3.jpg" alt="">
             </aside>
 
-            <main class="content2">
-                <div class="content_container_poduct-page">
+            <main class="content">
+               
 
 
                     <div class="product-box">
                             <a href="product-page.html" class="box1">
-                        <div id="product_1" class="box_product">
-            
-                        </div>
+                                <div id="product_0" class="box_product">
+                                </div>
                         <div class="box_product_title">
                             <span class="price_title">400 ₽</span>
                             <button class="btn">Заказать</button>
                         </div> 
                      </a>
-                    </div>
-                    <div class="product-info">
-                        <h4 align="center">product_name</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, cupiditate labore ex unde aperiam nemo veniam, porro adipisci accusantium quo id repellendus accusamus vero cum fuga temporibus facere architecto sunt odio reiciendis facilis. Aliquam voluptas magnam quaerat ipsum iusto? Perferendis.</p>
-                    </div>
+                    
 
-                    
-                    
+                    <div class="product-info">
+                        <h4 align="center">Aspect OASIS 26</h4>
+                        <p>горный велосипед начального уровня на колесах 26 дюймов. В основе велосипеда лежит надежная алюминиевая рама ALUXX-Grade и амортизационная вилка SR Suntour M3030A с ходом 100мм. Модель оснащена оборудованием начального уровня от Shimano.</p>
                     </div>
+</div>      
                 
             </main>
         </div>
@@ -63,3 +70,5 @@
     </div>
 </body>
 </html>
+
+<script src="main.js"></script>

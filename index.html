@@ -2,132 +2,168 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-   <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
+    <link rel="icon" href="assets/icon.ico" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Шаурмечная</title>
+    <title>VeloShop</title>
 </head>
 <body>
     <div class="wrapper">
         <header class="header">
-           <a href="index.html"><h1 align="center">Шаурмечная</h1></a>
+            <div class="header_innear">
+
+                 <div  class="dropbtn dropdown menu" >
+                        <div onclick="myFunction()" class="line dropbtn dropdown menu"></div>
+                        <div onclick="myFunction()" class="line dropbtn dropdown "></div>
+                        <div onclick="myFunction()" class="line dropbtn  dropdown"></div>
+                    </div>
+                     
+               <nav class="navbar">
+                    <a class="navlink" href="">Горные велосипеды</a>
+                    <a class="navlink" href="">Шоссейные велосипеды</a>
+                    <a class="navlink" href="">Фэтбайк</a>
+               </nav>
+                <a href="index.html"><h1 align="center">VeloShop</h1></a>
+            </div>
+           
         </header>
+
+        <div id="myDropdown" class="dropdown-content">
+            <a class="navlink" href="">Горные велосипеды</a>
+            <hr>
+            <a class="navlink" href="">Шоссейные велосипеды</a>
+            <hr>
+            <a class="navlink" href="">Фэтбайк</a>
+        </div>
+
         <div class="container">
             <aside class="aside">
-                <nav class="navbar">
-                    <ul>
-                        <li><a href="">Шаурма</a></li>
-                        <li><a href="">Шаурма с котятами</a></li>
-                        <li><a href="">Мемы</a></li>
-                    </ul>
-                </nav>
-                    <img src="https://lafoy.ru/photo_s/shaurma-s-kuricey-v-domashnih-usloviyah-recepty-1075-42533.jpg" alt="">
+                    <img src="https://abrakadabra.fun/uploads/posts/2021-12/1640723093_3-abrakadabra-fun-p-velosiped-krasivie-oboi-vertikalnie-3.jpg" alt="">
             </aside>
 
             <main class="content">
                 <div class="content_container">
 
-                    <a href="product-page.html" class="box">
+                    <div class="box">
                         <div id="product_1" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
-                        </div>              
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
-                    </a>
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Aspect OASIS 26
+                                </span>
+                            </div> 
+                            <div class="price">
+                                <a class="price_title" href="product-page.html">31 900</a>
+                            </div>
+                        </div>
+                    </div>
 
                     
                     <div class="box">
                         <div id="product_2" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
                         </div>
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Giant Roam 3 Disc</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">57 400</span>
+                            </div>
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
                     </div>
 
                     <div class="box">
                         <div id="product_3" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
                         </div>
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Aspect AURA 27,5</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">44 900</span>
+                            </div>
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
                     </div>
 
                     <div class="box">
                         <div id="product_4" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
                         </div>
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Merida Big.Seven Limited</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">43 500</span>
+                            </div>
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
                     </div>
 
                     <div class="box">
                         <div id="product_5" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
-                        </div>              
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
+
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Giant Tempt 3 29"</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">58 700</span>
+                            </div>
+                        </div>
+                        
                     </div>
 
                     <div class="box">
                         <div id="product_6" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
-                        </div>              
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Aspect IDEAL 27.5</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">34 900</span>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="box">
                         <div id="product_7" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
-                        </div>              
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Aspect DISCOVERY 26</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">48 990</span>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="box">
                         <div id="product_8" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
-                        </div>              
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Merida BIG.NINE 3000</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">63 00</span>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="box">
                         <div id="product_9" class="box_product">
-                         <div class="price">
-                            <span class="price_title">400</span>
-                        </div>              
                         </div>
-                        <div class="box_product_title">
-                            <span>product_name</span>
-                        </div> 
+                        <div class="box_product_info">
+                            <div class="box_product_title">
+                                <span>Cube Elite C:62 One 29"</span>
+                            </div> 
+                            <div class="price">
+                                <span class="price_title">440 900</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </main>
@@ -138,3 +174,4 @@
     </div>
 </body>
 </html>
+<script src="main.js"></script>
